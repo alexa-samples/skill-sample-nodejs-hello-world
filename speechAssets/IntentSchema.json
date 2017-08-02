@@ -2,6 +2,18 @@
   "intents": [
     {
       "intent": "HelloWorldIntent"
+    },
+    {
+      "intent": "GoodbyeWorldIntent"
+    },
+    {
+      "intent": "GetBenefit",
+      "slots": [
+        {
+          "name": "Benefit",
+          "type": "BENEFITS"
+        }
+      ]
     }
   ]
 }

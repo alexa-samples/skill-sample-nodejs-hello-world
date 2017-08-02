@@ -11,10 +11,20 @@ var handlers = {
     'LaunchRequest': function () {
         this.emit('SayHello');
     },
-    'HelloWorldIntent': function () {
-        this.emit('SayHello')
+    'GetBenefit': function () {
+        this.emit('BenefitHello');
+    },
+    'GoodbyeWorldIntent': function () {
+        this.emit('SayGoodbye');
+    },
+    'BenefitHello': function () {
+        this.emit(':tell', 'I can tell you about Clover benefits');
     },
     'SayHello': function () {
-        this.emit(':tell', 'Hello World!');
+        this.emit(':tell', 'Hello Clover!');
+    },
+    'SayGoodbye': function () {
+        this.emit(':tell', 'Goodbye Clover!');
     }
+    
 };
