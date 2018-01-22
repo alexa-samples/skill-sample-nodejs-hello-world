@@ -12,7 +12,7 @@ const handlers = {
         this.emit('SayHello');
     },
     'HelloWorldIntent': function () {
-        this.emit('SayHello')
+        this.emit('SayHello');
     },
     'SayHello': function () {
         this.response.speak('Hello World!');
