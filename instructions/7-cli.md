@@ -23,13 +23,13 @@ This readme assumes you have your developer environment ready to go and that you
 2. **Clone** the repository.
 
 	```bash
-	$ git clone https://github.com/alexa/alexa-cookbook
+	$ git clone https://github.com/alexa/skill-sample-nodejs-hello-world
 	```
 
 3. If it's your first time using it, **initiatialize** the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs) by navigating into the repository and running npm command: `ask init`. Follow the prompts.
 
 	```bash
-	$ cd alexa-cookbook/labs/HelloWorld
+	$ cd skill-sample-nodejs-hello-world
 	$ ask init
 	```
 
@@ -58,7 +58,7 @@ ASK CLI **will create the skill and the lambda function for you**. The Lambda fu
 2. Simulate verbal interaction with your skill through the command line (this might take a few moments) using the following example:
 
 	```bash
-	 $ ask simulate -l en-GB -t "start Hello World"
+	 $ ask simulate -l en-US -t "start Hello World"
 
 	 ✓ Simulation created for simulation id: 4a7a9ed8-94b2-40c0-b3bd-fb63d9887fa7
 	◡ Waiting for simulation response{
@@ -77,7 +77,7 @@ ASK CLI **will create the skill and the lambda function for you**. The Lambda fu
 
    Change the skill name, example phrase, icons, testing instructions etc ...
 
-   Remember than many information are locale-specific and must be changed for each locale (en-GB and en-US)
+   Remember than many information are locale-specific and must be changed for each locale (e.g. en-US, en-GB, de-DE, etc.)
 
    See the Skill [Manifest Documentation](https://developer.amazon.com/docs/smapi/skill-manifest.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Survey&sc_detail=hello-world-nodejs-V2_CLI-3&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Survey_hello-world-nodejs-V2_CLI-3_Convert_WW_beginnersdevs&sc_segment=beginnersdevs) for more information.
 
@@ -90,3 +90,7 @@ ASK CLI **will create the skill and the lambda function for you**. The Lambda fu
 	Change the model definition to replace the invocation name and the sample phrase for each intent.  Repeat the operation for each locale you are planning to support.
 
 4. Remember to re-deploy your skill and lambda function for your changes to take effect.
+
+	```bash
+	$ ask deploy
+	```
