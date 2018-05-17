@@ -6,10 +6,10 @@
           "summary": "Sample Short Description",
           "examplePhrases": [
             "Alexa open hello world",
-            "Alexa tell hello world my name is bill",
-            "Alexa tell hello world I want to play"
+            "hello",
+            "help"
           ],
-          "name": "trivia",
+          "name": "Hello World",
           "description": "Sample Full Description"
         }
       },
