@@ -26,7 +26,7 @@ This readme assumes you have your developer environment ready to go and that you
 	$ git clone https://github.com/alexa/skill-sample-nodejs-hello-world
 	```
 
-3. If it's your first time using it, **initiatialize** the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs) by navigating into the repository and running npm command: `ask init`. Follow the prompts.
+3. If it's your first time using it, **initialize** the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs) by navigating into the repository and running npm command: `ask init`. Follow the prompts.
 
 	```bash
 	$ cd skill-sample-nodejs-hello-world
@@ -42,10 +42,10 @@ This readme assumes you have your developer environment ready to go and that you
 
 ### Deployment
 
-ASK CLI **will create the skill and the lambda function for you**. The Lambda function will be created in ```us-east-1 (Northern Virginia)``` by default.
+ASK CLI **will create the skill and the Lambda function for you**. The Lambda function will be created in ```us-east-1 (Northern Virginia)``` by default.
 
 1. Navigate to the project's root directory. you should see a file named 'skill.json' there.
-2. Deploy the skill and the lambda function in one step by running the following command:
+2. Deploy the skill and the Lambda function in one step by running the following command:
 
 	```bash
 	$ ask deploy
@@ -89,7 +89,7 @@ ASK CLI **will create the skill and the lambda function for you**. The Lambda fu
 
 	Change the model definition to replace the invocation name and the sample phrase for each intent.  Repeat the operation for each locale you are planning to support.
 
-4. Remember to re-deploy your skill and lambda function for your changes to take effect.
+4. Remember to re-deploy your skill and Lambda function for your changes to take effect.
 
 	```bash
 	$ ask deploy
