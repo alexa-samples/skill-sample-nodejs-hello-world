@@ -3,17 +3,7 @@
     "default": {
       "skill_id": "",
       "was_cloned": false,
-      "merge": {
-        "manifest": {
-          "apis": {
-            "custom": {
-              "endpoint": {
-                "uri": "ask-custom-helloworld-default"
-              }
-            }
-          }
-        }
-      }
+      "merge": {}
     }
   }
 }
