@@ -23,7 +23,7 @@ In the [first step of this guide](./1-voice-user-interface.md), we built the Voi
 
     ![Create lambda function](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/2-4-create-a-lambda-function._TTH_.png)
 
-5.  There are three boxes labeled "Author from scratch", "Blueprints" and "Serverless Application Repository". **Click the radio button in the box titled  "Serverless Application Repository"**  We have created an application in the repository as a shortcut to getting everything set up for your skill.
+5.  There are three boxes labeled "Author from scratch", "Blueprints" and "AWS Serverless Application Repository". **Click the radio button in the box titled  "AWS Serverless Application Repository"**  We have created an application in the repository as a shortcut to getting everything set up for your skill.
 
 6. **Enter `fact` to search for the application repository named `alexa-skills-kit-nodejs-factskill`.** Enter the full name into the serach box if you need to narrow the search results.
 
@@ -46,7 +46,7 @@ In the [first step of this guide](./1-voice-user-interface.md), we built the Voi
 
 11. **Open** this Lambda function [source code file](../lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file found in the Lambda code editor.  Don't forget to Save.
 
-13. You should see the Amazon Resource Name (ARN) a unique identifier for this function in the top right corner of the page. **Copy the ARN value for this Lambda function** for use in the next section of the guide.
+13. In the top right corner of the page, you should see the Amazon Resource Name (ARN), which is a unique identifier for this lambda function. **Make a copy of this ARN value** for use in the next section of this guide.
 
     ![Copy ARN](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/2-12-copy-ARN._TTH_.png)
 <!--TODO: THIS IMAGE NEEDS TO BE CUSTOMIZED FOR YOUR SKILL TEMPLATE. -->
