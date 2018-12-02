@@ -1,26 +1,26 @@
-# Build An Alexa Hello World Skill
+# Bir Alexa Hello World ("Merhaba Dünya") Yeteneği Geliştirin
 <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/header._TTH_.png" />
 
-### This is a simple tutorial to introduce a simple Alexa skill and code.
+### Basit bir Alexa yeteneğini ve ilgili uygulamayı tanıtan temel eğitim.
 
-This tutorial will walk first-time Alexa skills developers through all the required steps involved in creating a skill using this hello world template, called ‘hello world’. This post assumes you have some familiarity with JavaScript/Node.js (or a similar programming language) and the Alexa Skills Kit.
+Bu eğitim, Alexa yeteneklerini ilk defa kullanacak geliştiricilere, ‘merhaba dünya’ isimli bu şablonu kullanarak yetenek yaratma için gerekli olan tüm adımları anlatacaktır. Bu eğitim, JavaScript/Node.js ya da benzer bir programlama dili ve Alexa Skills Kit ("Alexa Yetenek Kiti") konularında bir miktar bilgi sahibi olduğunuzu varsaymaktadır.
 
-If this is your first time here, you're new to Alexa Skills Development, or you're looking for more detailed instructions, click the **Get Started** button below:
+Eğer bu sayfayı ilk defa ziyaret ediyor, Alexa Yetenek Geliştirme konusuna yeni başlıyor, ya da daha bir detaylı açıklama arıyorsanız, aşağıdaki **Başlayalım** butonunu tıklayın:
 
-[![Get Started](https://camo.githubusercontent.com/db9b9ce26327ad3bac57ec4daf0961a382d75790/68747470733a2f2f6d2e6d656469612d616d617a6f6e2e636f6d2f696d616765732f472f30312f6d6f62696c652d617070732f6465782f616c6578612f616c6578612d736b696c6c732d6b69742f7475746f7269616c732f67656e6572616c2f627574746f6e732f627574746f6e5f6765745f737461727465642e5f5454485f2e706e67)](./instructions/1-voice-user-interface.md)
+[![get_started_tr](https://user-images.githubusercontent.com/6242253/49246564-4a764680-f426-11e8-8f82-bb1ae616ab97.png)](./instructions/1-voice-user-interface.md)
 
-Or click [here](./instructions/7-cli.md) for instructions using the ASK CLI (command line interface).
+Ya da ASK CLI (Alexa Yetenek Kiti komut satırı arayüzü) kullanmak için [burayı](./instructions/7-cli.md)  tıklayın.
 
-## Additional Resources
+## Ek Kaynaklar (İngilizce)
 
-### Community
-* [Amazon Developer Forums](https://forums.developer.amazon.com/spaces/165/index.html) - Join the conversation!
-* [Hackster.io](https://www.hackster.io/amazon-alexa) - See what others are building with Alexa.
+### Topluluklar 
+* [Amazon Geliştirici Forumları](https://forums.developer.amazon.com/spaces/165/index.html) - Sohbete siz de katılın!
+* [Hackster.io](https://www.hackster.io/amazon-alexa) - Başkaları Alexa'yı nasıl kullanıyor, öğrenin.
 
-### Tutorials & Guides
-* [Voice Design Guide](https://developer.amazon.com/designing-for-voice/) - A great resource for learning conversational and voice user interface design.
-* [Codecademy: Learn Alexa](https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on Codecademy!
+### Yol Gösterici Eğitimler
+* [Ses Arayüzü Tasarım Rehberi](https://developer.amazon.com/designing-for-voice/) - Konuşma ve ses arayüzü tasarımını öğrenmek için harika bir kaynak.
+* [Codecademy: Alexa Eğitimi](https://www.codecademy.com/learn/learn-alexa) - Yeni başlayanlara yönelik kullanıcı dostu bu eğitim ile tarayıcınızın içinde bir Alexa Yeteneği geliştirin!
 
-### Documentation
-* [Official Alexa Skills Kit Node.js SDK](https://www.npmjs.com/package/ask-sdk) - The Official Node.js SDK Documentation
-*  [Official Alexa Skills Kit Documentation](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html) - Official Alexa Skills Kit Documentation
+### Dokümantasyon
+* [Alexa Yetenek Kiti Onaylı Node.js YGK'sı (Yazılım Geliştirme Kiti)](https://www.npmjs.com/package/ask-sdk) - Node.js YGK'sı (Yazılım Geliştirme Kiti) için Onaylı Dokümantasyon
+*  [Alexa Yetenek Kiti Onaylı Dokümantasyonu](https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html) - Alexa Yetenek Kiti için Onaylı Dokümantasyon
