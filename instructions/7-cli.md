@@ -33,7 +33,7 @@ This readme assumes you have your developer environment ready to go and that you
 	$ ask init
 	```
 
-4. Install npm dependencies by navigating into the `/lambda/custom` directory and running the npm command: `npm install --save`
+4. Install npm dependencies by navigating into the `/lambda/custom` directory and running the npm command: `npm install`
 
 	```bash
 	$ cd lambda/custom
