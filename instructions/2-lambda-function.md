@@ -44,9 +44,13 @@ In the [first step of this guide](./1-voice-user-interface.md), we built the Voi
 
 13. Scroll down the page until you see a section called **Function code**.
 
-11. **Open** this Lambda function [source code file](../lambda/custom/index.js), copy the contents of the file, and paste it into the index.js file found in the Lambda code editor.  Don't forget to Save.
+14. Upload this Lambda function [source code file](../lambda/custom). You can use the S3 link [https://s3-eu-west-1.amazonaws.com/skill-sample-nodejs-hello-world/lambda.zip
+](https://s3-eu-west-1.amazonaws.com/skill-sample-nodejs-hello-world/lambda.zip
+) to replace the lambda code. **Choose "Upload a file from Amazon S3"** and paste the URL in the text box. Alternatively you can build your own zip file and upload it by choosing "Upload a .zip file". Do not forget to run `npm install`, because the node_modules directory must be included in the zip file.
 
-13. You should see the Amazon Resource Name (ARN) a unique identifier for this function in the top right corner of the page. **Copy the ARN value for this Lambda function** for use in the next section of the guide.
+    ![Upload zip](https://s3-eu-west-1.amazonaws.com/skill-sample-nodejs-hello-world/upload-zip.png)
+
+15. You should see the Amazon Resource Name (ARN) a unique identifier for this function in the top right corner of the page. **Copy the ARN value for this Lambda function** for use in the next section of the guide.
 
     ![Copy ARN](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/quiz-game/2-12-copy-ARN._TTH_.png)
 <!--TODO: THIS IMAGE NEEDS TO BE CUSTOMIZED FOR YOUR SKILL TEMPLATE. -->
