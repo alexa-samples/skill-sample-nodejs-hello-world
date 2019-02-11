@@ -11,29 +11,24 @@ This readme assumes you have your developer environment ready to go and that you
 * Node.js (> v8)
 * Register for an [AWS Account](https://aws.amazon.com/)
 * Register for an [Amazon Developer Account](https://developer.amazon.com?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs)
-* Install and Setup [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs)
+* Install and initialize the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs)
+
+> Note: If you would like to setup the ASK CLI using AWS Cloud9 (a cloud-based IDE with pay-as-you-go pricing and is eligible for AWS Free Tier pricing), step-by-step instructions can be found [here](https://alexa.design/cli-on-cloud9).
 
 ### Installation
 1. **Make sure** you are running the latest version of the CLI
 
 	```bash
-	$ npm update -g ask-cli
+	npm update -g ask-cli
 	```
 
 2. **Clone** the repository.
 
 	```bash
-	$ git clone https://github.com/alexa/skill-sample-nodejs-hello-world
+	git clone https://github.com/alexa/skill-sample-nodejs-hello-world
 	```
 
-3. If it's your first time using it, **initialize** the [ASK CLI](https://developer.amazon.com/docs/smapi/quick-start-alexa-skills-kit-command-line-interface.html?&sc_category=Owned&sc_channel=RD&sc_campaign=Evangelism2018&sc_publisher=github&sc_content=Content&sc_detail=hello-world-nodejs-V2_CLI-1&sc_funnel=Convert&sc_country=WW&sc_medium=Owned_RD_Evangelism2018_github_Content_hello-world-nodejs-V2_CLI-1_Convert_WW_beginnersdevs&sc_segment=beginnersdevs) by navigating into the repository and running npm command: `ask init`. Follow the prompts.
-
-	```bash
-	$ cd skill-sample-nodejs-hello-world
-	$ ask init
-	```
-
-4. Install npm dependencies by navigating into the `/lambda/custom` directory and running the npm command: `npm install`
+3. Install npm dependencies by navigating into the `/lambda/custom` directory and running the npm command: `npm install`.
 
 	```bash
 	$ cd lambda/custom
@@ -53,7 +48,7 @@ ASK CLI **will create the skill and the Lambda function for you**. The Lambda fu
 
 ### Testing
 
-1. To test, you need to login to Alexa Developer Console, and **enable the "Test" switch on your skill from the "Test" Tab**.
+1. To test, the skill needs to be enabled.  From the developer console, open your skill and click the Test tab.  Ensure the skill is available for testing in Development.
 
 2. Simulate verbal interaction with your skill through the command line (this might take a few moments) using the following example:
 
@@ -94,3 +89,8 @@ ASK CLI **will create the skill and the Lambda function for you**. The Lambda fu
 	```bash
 	$ ask deploy
 	```
+
+## Additional Testing Options
+[![Next](https://m.media-amazon.com/images/G/01/mobile-apps/dex/alexa/alexa-skills-kit/tutorials/general/buttons/button_next_testing._TTH_.png)](./test-using-simulator.md)
+
+
