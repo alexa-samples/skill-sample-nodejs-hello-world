@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "nutrición inteligente",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "HolaMundoIntent",
+                  "slots": [],
+                  "samples": [
+                      "hola",
+                      "cómo estás",
+                      "di hola mundo",
+                      "di hola",
+                      "comenta hola mundo",
+                      "comenta hola"
+                  ]
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              }
+          ],
+          "types": []
+      }
+  }
+}
