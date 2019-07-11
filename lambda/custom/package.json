@@ -1,6 +1,6 @@
 {
   "name": "hello-world",
-  "version": "0.9.0",
+  "version": "1.1.0",
   "description": "alexa utility for quickly building skills",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "Amazon Alexa",
   "license": "ISC",
   "dependencies": {
-    "ask-sdk-core": "^2.0.7",
-    "ask-sdk-model": "^1.4.1",
+    "ask-sdk-core": "^2.6.0",
+    "ask-sdk-model": "^1.18.0",
     "aws-sdk": "^2.326.0"
   }
 }
