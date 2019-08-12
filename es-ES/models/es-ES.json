@@ -1,7 +1,7 @@
 {
   "interactionModel": {
       "languageModel": {
-          "invocationName": "nutrición inteligente",
+          "invocationName": "Hola Mundo",
           "intents": [
               {
                   "name": "AMAZON.CancelIntent",
