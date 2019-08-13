@@ -7,11 +7,10 @@ const LaunchRequestHandler = {
         return handlerInput.requestEnvelope.request.type === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speechText = '¡Hola! bienvenido a Hola Mundo. Esto fué muy fácil ¿No? ¡Adios!';
+        const speechText = '¡Hola! Me puedes decir hola o ayúdame. ¿Que te gustaría intentar?';
         return handlerInput.responseBuilder
             .speak(speechText)
-            .withSimpleCard('Hola Mundo')
-            //.reprompt('agrega un texto de reprompt si deseas dejar la sesión abierta para que el usuario responda. No olvide cerrar con una pregunta. ¿Cómo te puedo ayudar?')
+            .reprompt(speechText)
             .getResponse();
     }
 };
