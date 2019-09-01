@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "hello world",
+            "invocationName": "le génie des salutations",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -19,21 +19,16 @@
                     "name": "HelloWorldIntent",
                     "slots": [],
                     "samples": [
-                        "hello",
-                        "how are you",
-                        "say hi world",
-                        "say hi",
-                        "hi",
-                        "say hello world",
-                        "say hello"
+                        "bon matin",
+                        "bonjour",
+                        "coucou",
+                        "salut",
+                        "me dire bonjour",
+                        "me dire bon matin"
                     ]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.FallbackIntent",
                     "samples": []
                 }
             ],
