@@ -111,7 +111,7 @@ const IntentReflectorHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'IntentRequest';
     },
     handle(handlerInput) {
-        const intentName = Alexaa.getIntentName(handlerInput.requestEnvelope);
+        const intentName = Alexa.getIntentName(handlerInput.requestEnvelope);
         const speakOutput = handlerInput.t('REFLECTOR_MSG', {intentName: intentName});
 
         return handlerInput.responseBuilder
