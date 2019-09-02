@@ -90,7 +90,7 @@ module.exports = {
             HELP_MSG: 'आप मुझसे hello बोल सकते हो.',
             GOODBYE_MSG: 'अलविदा ',
             REFLECTOR_MSG: 'आपने {{intentName}} trigger किया हैं ',
-            FALLBACK_MSG: 'Sorry, I don\'t know about that. Please try again.',
+            FALLBACK_MSG: 'Sorry, मैं वो समझ नहीं पायी. क्या आप दोहरा सकते हैं ',
             ERROR_MSG: 'Sorry, मैं वो समझ नहीं पायी. क्या आप दोहरा सकते हैं '
         }
     }
