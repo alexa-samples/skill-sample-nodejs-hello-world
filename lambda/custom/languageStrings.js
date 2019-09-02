@@ -41,16 +41,16 @@ module.exports = {
     },
     ja: {
         translation: {
-            WELCOME_MSG: 'Welcome, you can say Hello or Help. Which would you like to try?',
-            HELLO_MSG: 'Hello World!',
-            HELP_MSG: 'You can say hello to me! How can I help?',
-            GOODBYE_MSG: 'Goodbye!',
-            REFLECTOR_MSG: 'You just triggered {{intentName}}',
-            FALLBACK_MSG: 'Sorry, I don\'t know about that. Please try again.',
-            ERROR_MSG: 'Sorry, I had trouble doing what you asked. Please try again.'
+            WELCOME_MSG: 'ようこそ。こんにちは、または、ヘルプ、と言ってみてください。どうぞ！',
+            HELLO_MSG: 'ハローワールド',
+            HELP_MSG: 'こんにちは、と言ってみてください。どうぞ！',
+            GOODBYE_MSG: 'さようなら',
+            REFLECTOR_MSG: '{{intentName}}がトリガーされました。',
+            FALLBACK_MSG: 'ごめんなさい。ちょっとよくわかりませんでした。もう一度言ってみてください。',
+            ERROR_MSG: 'ごめんなさい。なんだかうまく行かないようです。もう一度言ってみてください。'
         }
     },
-    fr:{
+    fr: {
         translation: {
             WELCOME_MSG: 'Bienvenue sur le génie des salutations, dites-moi bonjour et je vous répondrai',
             HELLO_MSG: 'Bonjour à tous!',
