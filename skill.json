@@ -113,13 +113,13 @@
           "keywords": []
         },
         "ja-JP": {
-          "name": "Hello World",
+          "name": "ハローワールド",
           "summary": "Sample Short Description",
           "description": "Sample Full Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "アレクサ、ハローワールドを開いて",
+            "こんにちは",
+            "ヘルプ"
           ],
           "keywords": []
         },
