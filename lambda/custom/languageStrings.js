@@ -30,13 +30,13 @@ module.exports = {
     },
     de: {
         translation: {
-            WELCOME_MSG: 'Welcome, you can say Hello or Help. Which would you like to try?',
-            HELLO_MSG: 'Hello World!',
-            HELP_MSG: 'You can say hello to me! How can I help?',
-            GOODBYE_MSG: 'Goodbye!',
-            REFLECTOR_MSG: 'You just triggered {{intentName}}',
-            FALLBACK_MSG: 'Sorry, I don\'t know about that. Please try again.',
-            ERROR_MSG: 'Sorry, I had trouble doing what you asked. Please try again.'
+            WELCOME_MSG: 'Wilkommen, du kannst Hallo oder Hilfe sagen. Was würdest du gern tun?',
+            HELLO_MSG: 'Hallo!',
+            HELP_MSG: 'Du kannst hallo zu mir sagen. Wie kann ich dir helfen?',
+            GOODBYE_MSG: 'Tschüss!',
+            REFLECTOR_MSG: 'Du hast gerade {{intentName}} ausgelöst',
+            FALLBACK_MSG: 'Es tut mir leid, ich weiss das nicht. Bitte versuche es erneut.',
+            ERROR_MSG: 'Es tut mir leid, ich konnte das nicht machen. Bitte versuche es erneut.'
         }
     },
     ja: {
@@ -74,13 +74,13 @@ module.exports = {
     },
     pt: {
         translation: {
-            WELCOME_MSG: 'Welcome, you can say Hello or Help. Which would you like to try?',
-            HELLO_MSG: 'Hello World!',
-            HELP_MSG: 'You can say hello to me! How can I help?',
-            GOODBYE_MSG: 'Goodbye!',
-            REFLECTOR_MSG: 'You just triggered {{intentName}}',
-            FALLBACK_MSG: 'Sorry, I don\'t know about that. Please try again.',
-            ERROR_MSG: 'Sorry, I had trouble doing what you asked. Please try again.'
+            WELCOME_MSG: 'Bem vindo, você pode dizer Olá ou Ajuda. Qual você gostaria de fazer?',
+            HELLO_MSG: 'Olá!',
+            HELP_MSG: 'Você pode dizer olá para mim. Como posso te ajudar?',
+            GOODBYE_MSG: 'Tchau!',
+            REFLECTOR_MSG: 'Você acabou de ativar {{intentName}}',
+            FALLBACK_MSG: 'Desculpe, não sei o que dizer. Por favor tente novamente.',
+            ERROR_MSG: 'Desculpe, não consegui fazer o que você pediu. Por favor tente novamente.'
         }
     },
     hi: {
