@@ -124,13 +124,13 @@
           "keywords": []
         },
         "de-DE": {
-          "name": "Hello World",
+          "name": "Hallo Welt",
           "summary": "Sample Short Description",
           "description": "Sample Full Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "Alexa öffne hallo welt",
+            "hallo",
+            "hilfe"
           ],
           "keywords": []
         },
@@ -157,13 +157,13 @@
           "keywords": []
         },
         "pt-BR": {
-          "name": "Hello World",
+          "name": "Olá Mundo",
           "summary": "Sample Short Description",
           "description": "Sample Full Description",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
-            "help"
+            "Alexa abra olá mundo",
+            "olá",
+            "ajuda"
           ],
           "keywords": []
         }
