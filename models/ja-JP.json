@@ -1,0 +1,38 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "ハローワールド",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                  "name": "HelloWorldIntent",
+                  "slots": [],
+                  "samples": [
+                      "ハロー",
+                      "ハローと言って",
+                      "ハローと言ってみて",
+                      "こんにちは",
+                      "こんにちはと言って",
+                      "こんにちはと言ってみて"
+                  ]
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              }
+          ],
+          "types": []
+      }
+  }
+}
