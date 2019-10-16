@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "hello world",
+            "invocationName": "hola mundo",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -19,21 +19,15 @@
                     "name": "HelloWorldIntent",
                     "slots": [],
                     "samples": [
-                        "hello",
-                        "how are you",
-                        "say hi world",
-                        "say hi",
-                        "hi",
-                        "say hello world",
-                        "say hello"
+                        "hola",
+                        "como estás",
+                        "di hola mundo",
+                        "di hola",
+                        "hola mundo"
                     ]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
-                    "samples": []
-                },
-                {
-                    "name": "AMAZON.FallbackIntent",
                     "samples": []
                 }
             ],
