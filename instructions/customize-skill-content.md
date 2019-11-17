@@ -5,7 +5,7 @@ This skill gets you started with skill building by providing basic "Hello World"
 
 ## Customize the Skill to be Yours
 
-At this point, you should have a working copy of our Fact skill.  In order to make it your own, you will need to customize it with data and responses that you create.  Here are the things you will need to change:
+At this point, you should have a working copy of our Hello World skill.  In order to make it your own, you will need to customize it with data and responses that you create.  Here are the things you will need to change:
 
 1.  **New sentences to respond to your users.** There are several sentences and responses that you will want to customize for your skill.
 
