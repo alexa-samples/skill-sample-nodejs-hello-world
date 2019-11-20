@@ -9,11 +9,13 @@ At this point, you should have a working copy of our Hello World skill.  In orde
 
 1.  **New sentences to respond to your users.** There are several sentences and responses that you will want to customize for your skill.
 
-    1.  Go back to **[languageStrings.js](../lambda/custom/languageStrings.js).**
+    1. Navigate to the **Code** tab again, and expand the project folder on the left to `Skill Code/lambda`.
 
-    2.  **Look for the a specific locale such as `en`** This is the beginning of the section where you need to customize several text strings for your skill.
+    2. Go to **[languageStrings.js](../lambda/custom/languageStrings.js).**
 
-    3.  For each prompt, such as `GOODBYE_MSG`, replace the string contents with any sentence you would like Alexa to respond with instead. For example, the following changes will result in Alexa saying "Bye! Hope to see you soon.", instead of "Goodbye!", when the `CancelAndStopIntentHandler` is triggered.
+    3.  **Look for the a specific locale such as `en`** This is the beginning of the section where you need to customize several text strings for your skill.
+
+    4.  For each prompt, such as `GOODBYE_MSG`, replace the string contents with any sentence you would like Alexa to respond with instead. For example, the following changes will result in Alexa saying "Bye! Hope to see you soon.", instead of "Goodbye!", when the `CancelAndStopIntentHandler` is triggered.
         
         Before:
         ```js
@@ -32,7 +34,7 @@ At this point, you should have a working copy of our Hello World skill.  In orde
             translation: {
                 ...,
                 ...,
-                GOODBYE_MSG: 'Bye! Hope to see you soon.',
+                GOODBYE_MSG: 'Bye! Hope to see you soon.', <-- CHANGED
                 ...
             }
         },
