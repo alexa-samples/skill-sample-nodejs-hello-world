@@ -40,7 +40,7 @@ At this point, you should have a working copy of our Hello World skill.  In orde
         },
         ```
 
-        
+        Now, press **Save**, and **Deploy**, and navigate back to the **Testing** tab. When you reopen your skill, Alexa should say "Bye! Hope to see you soon." instead of "Goodbye!".
 
 
 2.  **New language.** If you are creating this skill for another language other than English, you will need to make sure Alexa's responses are also in that language.
