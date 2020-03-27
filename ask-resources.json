@@ -1,16 +1,13 @@
 {
-    "askcliResourcesVersion": "2019-08-23",
+    "askcliResourcesVersion": "2020-03-31",
     "profiles": {
       "default": {
-        "skillId": "",
         "skillMetadata": {
-          "src": "./skill-package",
-          "lastDeployHash": ""
+          "src": "./skill-package"
         },
         "code": {
           "default": {
-            "src": "./code",
-            "lastDeployHash": ""
+            "src": "./lambda"
           }
         },
         "skillInfrastructure": {
