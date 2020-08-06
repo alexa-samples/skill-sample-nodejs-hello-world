@@ -1,12 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "hallo welt",
-            "modelConfiguration": {
-                "fallbackIntentSensitivity": {
-                    "level": "LOW"
-                }
-            },
+            "invocationName": "olá mundo",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -24,10 +19,13 @@
                     "name": "HelloWorldIntent",
                     "slots": [],
                     "samples": [
-                        "hallo",
-                        "wie geht's dir",
-                        "sag hallo welt",
-                        "sag hallo"
+                        "olá",
+                        "como vai você",
+                        "diga oi mundo",
+                        "diga oi",
+                        "oi",
+                        "diga olá mundo",
+                        "diga olá"
                     ]
                 },
                 {

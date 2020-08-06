@@ -2,14 +2,14 @@
     "manifest": {
         "publishingInformation": {
             "locales": {
-                "de-DE": {
-                    "name": "Hallo Welt",
+                "pt-BR": {
+                    "name": "Olá Mundo",
                     "summary": "Sample Short Description",
                     "description": "Sample Full Description",
                     "examplePhrases": [
-                        "Alexa öffne hallo welt",
-                        "hallo",
-                        "hilfe"
+                        "Alexa abra olá mundo",
+                        "olá",
+                        "ajuda"
                     ],
                     "keywords": []
                 }
