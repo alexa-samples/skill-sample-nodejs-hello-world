@@ -10,7 +10,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Welcome, you can say Hello or Help. Which would you like to try?';
+        const speakOutput = 'Bienvenido, puedes decir Hola o Ayuda. Cual prefieres?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -25,7 +25,7 @@ const HelloWorldIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HelloWorldIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hello World!';
+        const speakOutput = 'Hola Mundo!';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -40,7 +40,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'You can say hello to me! How can I help?';
+        const speakOutput = 'Puedes decirme hola. Cómo te puedo ayudar?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -56,7 +56,7 @@ const CancelAndStopIntentHandler = {
                 || Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.StopIntent');
     },
     handle(handlerInput) {
-        const speakOutput = 'Goodbye!';
+        const speakOutput = 'Hasta luego!';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -74,7 +74,7 @@ const FallbackIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.FallbackIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Sorry, I don\'t know about that. Please try again.';
+        const speakOutput = 'Lo siento, no se nada sobre eso. Por favor inténtalo otra vez.';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -108,7 +108,7 @@ const IntentReflectorHandler = {
     },
     handle(handlerInput) {
         const intentName = Alexa.getIntentName(handlerInput.requestEnvelope);
-        const speakOutput = `You just triggered ${intentName}`;
+        const speakOutput = `Acabas de activar ${intentName}`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -126,7 +126,7 @@ const ErrorHandler = {
         return true;
     },
     handle(handlerInput, error) {
-        const speakOutput = 'Sorry, I had trouble doing what you asked. Please try again.';
+        const speakOutput = 'Lo siento, ha habido un error. Por favor inténtalo otra vez.';
         console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
         return handlerInput.responseBuilder
