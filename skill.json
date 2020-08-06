@@ -2,14 +2,14 @@
     "manifest": {
         "publishingInformation": {
             "locales": {
-                "pt-BR": {
-                    "name": "Olá Mundo",
+                "it-IT": {
+                    "name": "Ciao Mondo",
                     "summary": "Sample Short Description",
                     "description": "Sample Full Description",
                     "examplePhrases": [
-                        "Alexa abra olá mundo",
-                        "olá",
-                        "ajuda"
+                        "Alexa apri ciao mondo",
+                        "ciao",
+                        "aiuto"
                     ],
                     "keywords": []
                 }

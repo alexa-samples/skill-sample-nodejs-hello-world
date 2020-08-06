@@ -1,7 +1,7 @@
 {
     "interactionModel": {
         "languageModel": {
-            "invocationName": "olá mundo",
+            "invocationName": "ciao mondo",
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
@@ -19,13 +19,11 @@
                     "name": "HelloWorldIntent",
                     "slots": [],
                     "samples": [
-                        "olá",
-                        "como vai você",
-                        "diga oi mundo",
-                        "diga oi",
-                        "oi",
-                        "diga olá mundo",
-                        "diga olá"
+                        "ciao",
+                        "come stai",
+                        "dì ciao",
+                        "salutami",
+                        "salutarmi"
                     ]
                 },
                 {
