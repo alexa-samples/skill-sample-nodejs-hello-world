@@ -2,14 +2,14 @@
     "manifest": {
         "publishingInformation": {
             "locales": {
-                "it-IT": {
-                    "name": "Ciao Mondo",
+                "hi-IN": {
+                    "name": "नमस्ते दुनिया",
                     "summary": "Sample Short Description",
                     "description": "Sample Full Description",
                     "examplePhrases": [
-                        "Alexa apri ciao mondo",
-                        "ciao",
-                        "aiuto"
+                        "Alexa मज़ेदार नमस्ते दुनिया",
+                        "hello",
+                        "मदद करो"
                     ],
                     "keywords": []
                 }
