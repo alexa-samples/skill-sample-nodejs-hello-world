@@ -2,14 +2,14 @@
     "manifest": {
         "publishingInformation": {
             "locales": {
-                "hi-IN": {
-                    "name": "नमस्ते दुनिया",
+                "ja-JP": {
+                    "name": "ハローワールド",
                     "summary": "Sample Short Description",
                     "description": "Sample Full Description",
                     "examplePhrases": [
-                        "Alexa मज़ेदार नमस्ते दुनिया",
-                        "hello",
-                        "मदद करो"
+                        "アレクサ、ハローワールドを開いて",
+                        "こんにちは",
+                        "ヘルプ"
                     ],
                     "keywords": []
                 }

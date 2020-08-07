@@ -10,7 +10,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'नमस्ते, आप hello या help कह सकते हैं. आप क्या करना चाहेंगे?';
+        const speakOutput = 'ようこそ。こんにちは、または、ヘルプ、と言ってみてください。どうぞ！';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -25,7 +25,7 @@ const HelloWorldIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'HelloWorldIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'नमस्ते दुनिया ';
+        const speakOutput = 'ハローワールド';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -40,7 +40,7 @@ const HelpIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.HelpIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'आप मुझसे hello बोल सकते हो.';
+        const speakOutput = 'こんにちは、と言ってみてください。どうぞ！';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -56,7 +56,7 @@ const CancelAndStopIntentHandler = {
                 || Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.StopIntent');
     },
     handle(handlerInput) {
-        const speakOutput = 'अलविदा ';
+        const speakOutput = 'さようなら';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -74,7 +74,7 @@ const FallbackIntentHandler = {
             && Alexa.getIntentName(handlerInput.requestEnvelope) === 'AMAZON.FallbackIntent';
     },
     handle(handlerInput) {
-        const speakOutput = 'Sorry, मैं वो समझ नहीं पायी. क्या आप दोहरा सकते हैं ';
+        const speakOutput = 'ごめんなさい。ちょっとよくわかりませんでした。もう一度言ってみてください。';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -108,7 +108,7 @@ const IntentReflectorHandler = {
     },
     handle(handlerInput) {
         const intentName = Alexa.getIntentName(handlerInput.requestEnvelope);
-        const speakOutput = `आपने ${intentName} trigger किया हैं `;
+        const speakOutput = `${intentName}がトリガーされました。`;
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
@@ -126,7 +126,7 @@ const ErrorHandler = {
         return true;
     },
     handle(handlerInput, error) {
-        const speakOutput = 'Sorry, मैं वो समझ नहीं पायी. क्या आप दोहरा सकते हैं ';
+        const speakOutput = 'ごめんなさい。なんだかうまく行かないようです。もう一度言ってみてください。';
         console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
         return handlerInput.responseBuilder
