@@ -19,16 +19,18 @@
                     "name": "HelloWorldIntent",
                     "slots": [],
                     "samples": [
-                        "bon matin",
                         "bonjour",
                         "coucou",
                         "salut",
-                        "me dire bonjour",
-                        "me dire bon matin"
+                        "me dire bonjour"
                     ]
                 },
                 {
                     "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
                     "samples": []
                 }
             ],
