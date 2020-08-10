@@ -2,7 +2,7 @@
     "manifest": {
       "publishingInformation": {
         "locales": {
-          "en-US": {
+          "en-GB": {
             "summary": "Sample Short Description",
             "examplePhrases": [
               "Alexa open hello world",
