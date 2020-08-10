@@ -2,6 +2,11 @@
     "interactionModel": {
         "languageModel": {
             "invocationName": "hallo welt",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
             "intents": [
                 {
                     "name": "AMAZON.CancelIntent",
