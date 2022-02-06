@@ -169,8 +169,7 @@
                 }
             },
             "isAvailableWorldwide": true,
-            "testingInstructions": "Sample Testing Instructions.",
-            "category": "KNOWLEDGE_AND_TRIVIA",
+            "testingInstructions": "Sample Testing Instructions",
             "distributionCountries": []
         },
         "apis": {
