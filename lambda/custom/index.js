@@ -131,7 +131,7 @@ const ErrorHandler = {
     },
     handle(handlerInput, error) {
         const speakOutput = handlerInput.t('ERROR_MSG');
-        console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
+        console.log(`~~~~ Error handled: ${JSON.stringify(error.stack)}`);
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
