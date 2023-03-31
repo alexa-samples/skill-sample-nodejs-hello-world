@@ -24,7 +24,7 @@ There are a number of different ways for you to setup your skill, depending on y
 * [Hackster.io](https://www.hackster.io/amazon-alexa) - See what others are building with Alexa.
 
 ### Tutorials & Guides
-* [Voice Design Guide](https://developer.amazon.com/designing-for-voice/) - A great resource for learning conversational and voice user interface design.
+* [Voice Design Guide](https://developer.amazon.com/fr/designing-for-voice/) - A great resource for learning conversational and voice user interface design.
 * [Codecademy: Learn Alexa](https://www.codecademy.com/learn/learn-alexa) - Learn how to build an Alexa Skill from within your browser with this beginner friendly tutorial on Codecademy!
 
 ### Documentation
