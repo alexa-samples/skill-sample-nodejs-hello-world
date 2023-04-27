@@ -10,7 +10,7 @@ The skill includes a code editor for managing and deploying the backend code for
 For details on what the Alexa-Hosted skills service provides, open [this page](https://developer.amazon.com/docs/hosted-skills/build-a-skill-end-to-end-using-an-alexa-hosted-skill.html) in a new tab.
 
 ### Steps
-Now that you've chosen Alexa-Hosted for the method to host your skill's backend resources, to use this template, select **Hello World Skill** and click "Choose". It will take a minute to create your Alexa hosted skill, then you will be taken to the Build tab of the console. It will take a minute to create your Alexa hosted skill, then you will be taken to the Build tab of the console.
+Now that you've chosen Alexa-Hosted for the method to host your skill's backend resources, to use this template, select **Hello World Skill** and click "Choose". It will take a minute to create your Alexa hosted skill, then you will be taken to the Build tab of the console. 
 
 
  #### Build the Interaction Model for your skill
