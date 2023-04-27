@@ -6,6 +6,17 @@
  * */
 
 module.exports = {
+    ar: {
+        translation: {
+            WELCOME_MSG: 'مرحبا ، يمكنك أن تقول مرحبا أو مساعدة. التي تريد أن تجرب',
+            HELLO_MSG: 'مرحبا بالعالم',
+            HELP_MSG: 'يمكنك أن تقول مرحبا لي! كيف يمكنني المساعدة?',
+            GOODBYE_MSG: 'إلى اللقاء',
+            REFLECTOR_MSG: '{{intentName}} أنت فقط أثار',
+            FALLBACK_MSG: 'آسف ، أنا لا أعرف عن ذلك. يرجى المحاولة مرة أخرى.',
+            ERROR_MSG: 'آسف ، واجهت مشكلة في فعل ما طلبته. يرجى المحاولة مرة أخرى.'
+        }
+    },
     en: {
         translation: {
             WELCOME_MSG: 'Welcome, you can say Hello or Help. Which would you like to try?',

@@ -2,6 +2,17 @@
     "manifest": {
         "publishingInformation": {
             "locales": {
+                "ar-SA": {
+                    "name": "مرحبا بالعالم",
+                    "summary": "Sample Short Description",
+                    "description": "Sample Full Description",
+                    "examplePhrases": [
+                        "مرحبا بالعالم Alexa",
+                        "أهلاً",
+                        "مساعدة"
+                    ],
+                    "keywords": []
+                },
                 "en-US": {
                     "name": "Hello World",
                     "summary": "Sample Short Description",
